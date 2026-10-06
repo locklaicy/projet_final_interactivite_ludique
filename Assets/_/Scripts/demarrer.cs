@@ -13,8 +13,12 @@ public class demarrer : MonoBehaviour
     {
         
     }
+<<<<<<< Updated upstream
 
     public void LoadLevel1()
     {
         Debug.Log("Button pressed");
     }
+=======
+}
+>>>>>>> Stashed changes
