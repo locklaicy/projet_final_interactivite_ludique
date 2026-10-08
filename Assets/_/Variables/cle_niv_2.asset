@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f3ad3d94c76a74ffaae15625647ada6a, type: 3}
-  m_Name: cle_niv_3
+  m_Name: cle_niv_2
   m_EditorClassIdentifier: ColliderEventSystem::ColliderEventSystem.BoolVariable
-  m_Id: 07ec7c60a946457ea3b349415bae8bdc
+  m_Id: a90f039e0ba7433e8c52d2b540f55435
   Persistent: 0
   m_InitialValue: 0
