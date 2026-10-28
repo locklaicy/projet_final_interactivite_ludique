@@ -1,2 +1,15 @@
-# projet_final_interactivite_ludique
+# Projet final — Interacivité ludique
 
+## Crédits
+
+### Audio
+
+- Pixabay
+
+### UI
+
+- Kenney
+
+### Fonts
+
+- Google Font
