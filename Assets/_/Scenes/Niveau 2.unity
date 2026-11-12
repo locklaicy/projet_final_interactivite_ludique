@@ -2642,62 +2642,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0763b239ccf904d42aa1507a9e86cbbb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 584567529}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0763b239ccf904d42aa1507a9e86cbbb, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 584567528}
   m_SourcePrefab: {fileID: 100100000, guid: 0763b239ccf904d42aa1507a9e86cbbb, type: 3}
 --- !u!1 &584567527 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0763b239ccf904d42aa1507a9e86cbbb, type: 3}
   m_PrefabInstance: {fileID: 584567526}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &584567528
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 584567527}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b89b2c8d34df52d4e89cba040401d38b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HeneGames.DialogueSystem.DialogueManager
-  audioSource: {fileID: 0}
-  startDialogueEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  nextSentenceDialogueEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  endDialogueEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  triggerState: 0
-  sentences:
-  - dialogueCharacter: {fileID: 11400000, guid: 5ff3aa9e4afc0124893ec96761fbdb12, type: 2}
-    sentence: "Oh, salut! Tu cherches \xE0 atteindre la tour, c'est \xE7a?"
-    skipDelayTime: 0
-    sentenceSound: {fileID: 0}
-    sentenceEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - dialogueCharacter: {fileID: 11400000, guid: 5ff3aa9e4afc0124893ec96761fbdb12, type: 2}
-    sentence: "Je peux t'aider \xE0 y parvenir, mais il pour \xE7a j'aimerais que
-      tu trouve un coffre pour moi. "
-    skipDelayTime: 0
-    sentenceSound: {fileID: 0}
-    sentenceEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - dialogueCharacter: {fileID: 11400000, guid: 5ff3aa9e4afc0124893ec96761fbdb12, type: 2}
-    sentence: "Il est cach\xE9 dans le labyrinthe. Trouve-le, et je te donnerais
-      la cl\xE9 de la tour. "
-    skipDelayTime: 0
-    sentenceSound: {fileID: 0}
-    sentenceEvent:
-      m_PersistentCalls:
-        m_Calls: []
 --- !u!65 &584567529
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3865,68 +3815,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 116112, guid: 100dded3f80a43846a29e6fdf0e82019, type: 3}
   m_PrefabInstance: {fileID: 1062384273}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &834029779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 834029776}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b89b2c8d34df52d4e89cba040401d38b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HeneGames.DialogueSystem.DialogueManager
-  audioSource: {fileID: 0}
-  startDialogueEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  nextSentenceDialogueEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  endDialogueEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  triggerState: 0
-  sentences:
-  - dialogueCharacter: {fileID: 0}
-    sentence: "H\xE9, qui va l\xE0? Vous cherchez quelque chose ?"
-    skipDelayTime: 0
-    sentenceSound: {fileID: 0}
-    sentenceEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - dialogueCharacter: {fileID: 0}
-    sentence: "...La grande tour? Hum, si j'\xE9tais vous, je ne tenterais pas le
-      coup, mais bon..."
-    skipDelayTime: 0
-    sentenceSound: {fileID: 0}
-    sentenceEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - dialogueCharacter: {fileID: 0}
-    sentence: "Je n'ai pas beaucoup de renseignements \xE0 vous donner, je sais juste
-      au'il y a un coffre quelque part ici qui contient une des cl\xE9s n\xE9cessaires."
-    skipDelayTime: 0
-    sentenceSound: {fileID: 0}
-    sentenceEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - dialogueCharacter: {fileID: 0}
-    sentence: "Il y a aussi un renard qui traine dans le coin. Peut-\xEAtre qu'il
-      saura vous aider... Ou vous nuire."
-    skipDelayTime: 0
-    sentenceSound: {fileID: 0}
-    sentenceEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - dialogueCharacter: {fileID: 0}
-    sentence: Bonne chance...
-    skipDelayTime: 0
-    sentenceSound: {fileID: 0}
-    sentenceEvent:
-      m_PersistentCalls:
-        m_Calls: []
 --- !u!65 &834029782
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4657,9 +4545,6 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 116112, guid: 100dded3f80a43846a29e6fdf0e82019, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 834029779}
     - targetCorrespondingSourceObject: {fileID: 116112, guid: 100dded3f80a43846a29e6fdf0e82019, type: 3}
       insertIndex: -1
       addedObject: {fileID: 834029782}
