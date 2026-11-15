@@ -130,7 +130,6 @@ namespace HeneGames.DialogueSystem
 
             dialogueWindow.SetActive(true);
 
-            portrait.sprite = _dialogueCharacter.characterPhoto;
             nameText.text = _dialogueCharacter.characterName;
             currentMessage = _message;
 
