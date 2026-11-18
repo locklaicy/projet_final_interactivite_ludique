@@ -3,7 +3,22 @@ guid: 31cac30a6a98bdd4da4878dd80a7aeaf
 ModelImporter:
   serializedVersion: 24501
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fiole_01_armature_fiole
+    second: {fileID: 2100000, guid: c6be10403fafaa941b12cd35817eadc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fiole_01_fiole_verre
+    second: {fileID: 2100000, guid: c6bb4f420ce76b54688ac1125c4aff5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: openPBR_shader1
+    second: {fileID: 2100000, guid: d98ddadb4e25a3f4792b2fe840dec146, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
